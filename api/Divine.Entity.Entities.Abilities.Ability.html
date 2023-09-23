@@ -1,0 +1,3776 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Ability
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Ability
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Divine.Entity.Entities.Abilities.Ability">
+  
+  
+  <h1 id="Divine_Entity_Entities_Abilities_Ability" data-uid="Divine.Entity.Entities.Abilities.Ability" class="text-break">Class Ability
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a></div>
+    <div class="level2"><span class="xref">Ability</span></div>
+      <div class="level3"><a class="xref" href="Divine.Entity.Entities.Abilities.Items.Item.html">Item</a></div>
+      <div class="level3"><a class="xref" href="Divine.Entity.Entities.Abilities.Spells.Spell.html">Spell</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Divine.Entity.Entities.Entity.html">Entity</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkClassInfos">Entity.NetworkClassInfos</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkPropertyChanged">Entity.NetworkPropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationChanged">Entity.AnimationChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetClassIdByNetworkName_System_String_">Entity.GetClassIdByNetworkName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetNetworkNameByClassId_Divine_Entity_Entities_Components_ClassId_">Entity.GetNetworkNameByClassId(ClassId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetStandartNetworkNameByClassId_System_Int32_">Entity.GetStandartNetworkNameByClassId(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsValid">Entity.IsValid</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Type">Entity.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Handle">Entity.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkHandle">Entity.NetworkHandle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Serial">Entity.Serial</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Index">Entity.Index</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetHandleByIndex_System_Int32_System_Int32_">Entity.GetHandleByIndex(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetSerialByHandle_System_UInt32_">Entity.GetSerialByHandle(UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetSerialByNetworkHandle_System_UInt32_">Entity.GetSerialByNetworkHandle(UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetIndexByHandle_System_UInt32_">Entity.GetIndexByHandle(UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetIndexByNetworkHandle_System_UInt32_">Entity.GetIndexByNetworkHandle(UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetHandleByNetworkHandle_System_UInt32_">Entity.GetHandleByNetworkHandle(UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetNetworkHandleByHandle_System_UInt32_">Entity.GetNetworkHandleByHandle(UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetNetworkHandleByIndex_System_Int32_System_Int32_">Entity.GetNetworkHandleByIndex(Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_InternalName">Entity.InternalName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_DesignerName">Entity.DesignerName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_MaximumHealth">Entity.MaximumHealth</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Health">Entity.Health</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_CreateTime">Entity.CreateTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Speed">Entity.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Team">Entity.Team</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Owner">Entity.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkName">Entity.NetworkName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_LifeState">Entity.LifeState</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ClassId">Entity.ClassId</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ClassNetworkId">Entity.ClassNetworkId</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Position">Entity.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Angles">Entity.Angles</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkAngles">Entity.NetworkAngles</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsAlive">Entity.IsAlive</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsVisible">Entity.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_IsDormant">Entity.IsDormant</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Rotation">Entity.Rotation</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_RotationRad">Entity.RotationRad</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkRotation">Entity.NetworkRotation</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_NetworkRotationRad">Entity.NetworkRotationRad</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_AnimationName">Entity.AnimationName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Select">Entity.Select()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Select_System_Boolean_">Entity.Select(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Model">Entity.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Scale">Entity.Scale</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ColorTint">Entity.ColorTint</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Glow">Entity.Glow</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_ToString">Entity.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Equals_System_Object_">Entity.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Equals_Divine_Entity_Entities_Entity_">Entity.Equals(Entity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_GetHashCode">Entity.GetHashCode()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Divine.Entity.Entities.Abilities.html">Divine.Entity.Entities.Abilities</a></h6>
+  <h6><strong>Assembly</strong>: Divine.dll</h6>
+  <h5 id="Divine_Entity_Entities_Abilities_Ability_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Ability : Entity, IEquatable&lt;Entity&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_AbilityBehavior.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.AbilityBehavior%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L332">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_AbilityBehavior_" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityBehavior*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_AbilityBehavior" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityBehavior">AbilityBehavior</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityBehavior AbilityBehavior { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityBehavior.html">AbilityBehavior</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_AbilityData.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.AbilityData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L445">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_AbilityData_" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityData*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_AbilityData" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityData">AbilityData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityData AbilityData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityData.html">AbilityData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_AbilityIndex.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.AbilityIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L404">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_AbilityIndex_" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityIndex*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_AbilityIndex" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityIndex">AbilityIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort AbilityIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_AbilitySlot.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.AbilitySlot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L481">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_AbilitySlot_" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilitySlot*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_AbilitySlot" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilitySlot">AbilitySlot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilitySlot AbilitySlot { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilitySlot.html">AbilitySlot</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_AbilitySpecialData.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.AbilitySpecialData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L454">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_AbilitySpecialData_" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilitySpecialData*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_AbilitySpecialData" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilitySpecialData">AbilitySpecialData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;AbilitySpecialData&gt; AbilitySpecialData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilitySpecialData.html">AbilitySpecialData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_AbilityState.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.AbilityState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L437">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_AbilityState_" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityState*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_AbilityState" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityState">AbilityState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityState AbilityState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityState.html">AbilityState</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_AbilityType.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.AbilityType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L324">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_AbilityType_" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityType*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_AbilityType" data-uid="Divine.Entity.Entities.Abilities.Ability.AbilityType">AbilityType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityType AbilityType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityType.html">AbilityType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_BaseCastRange.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.BaseCastRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L521">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_BaseCastRange_" data-uid="Divine.Entity.Entities.Abilities.Ability.BaseCastRange*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_BaseCastRange" data-uid="Divine.Entity.Entities.Abilities.Ability.BaseCastRange">BaseCastRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BaseCastRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CastPoint.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CastPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L489">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CastPoint_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastPoint*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CastPoint" data-uid="Divine.Entity.Entities.Abilities.Ability.CastPoint">CastPoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CastPoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CastRange.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CastRange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L513">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CastRange_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastRange*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CastRange" data-uid="Divine.Entity.Entities.Abilities.Ability.CastRange">CastRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CastRange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CastStartTime.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CastStartTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L274">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CastStartTime_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastStartTime*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CastStartTime" data-uid="Divine.Entity.Entities.Abilities.Ability.CastStartTime">CastStartTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CastStartTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_ChannelMaximumTime.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.ChannelMaximumTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L497">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_ChannelMaximumTime_" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelMaximumTime*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_ChannelMaximumTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelMaximumTime">ChannelMaximumTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ChannelMaximumTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_ChannelStartTime.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.ChannelStartTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L250">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_ChannelStartTime_" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelStartTime*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_ChannelStartTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelStartTime">ChannelStartTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ChannelStartTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_ChannelTime.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.ChannelTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L218">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_ChannelTime_" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelTime*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_ChannelTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChannelTime">ChannelTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ChannelTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTime.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L545">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTime_" data-uid="Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTime*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTime" data-uid="Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTime">ChargeRestoreTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ChargeRestoreTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTimeRemaining.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTimeRemaining%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L258">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTimeRemaining_" data-uid="Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTimeRemaining*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_ChargeRestoreTimeRemaining" data-uid="Divine.Entity.Entities.Abilities.Ability.ChargeRestoreTimeRemaining">ChargeRestoreTimeRemaining</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ChargeRestoreTimeRemaining { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Charges.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Charges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L537">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Charges_" data-uid="Divine.Entity.Entities.Abilities.Ability.Charges*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Charges" data-uid="Divine.Entity.Entities.Abilities.Ability.Charges">Charges</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Charges { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cooldown.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cooldown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L178">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cooldown_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cooldown*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cooldown" data-uid="Divine.Entity.Entities.Abilities.Ability.Cooldown">Cooldown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Cooldown { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CooldownInFog.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CooldownInFog%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L186">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CooldownInFog_" data-uid="Divine.Entity.Entities.Abilities.Ability.CooldownInFog*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CooldownInFog" data-uid="Divine.Entity.Entities.Abilities.Ability.CooldownInFog">CooldownInFog</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CooldownInFog { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CooldownLength.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CooldownLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L194">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CooldownLength_" data-uid="Divine.Entity.Entities.Abilities.Ability.CooldownLength*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CooldownLength" data-uid="Divine.Entity.Entities.Abilities.Ability.CooldownLength">CooldownLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CooldownLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CurrentCharges.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CurrentCharges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L266">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CurrentCharges_" data-uid="Divine.Entity.Entities.Abilities.Ability.CurrentCharges*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CurrentCharges" data-uid="Divine.Entity.Entities.Abilities.Ability.CurrentCharges">CurrentCharges</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual uint CurrentCharges { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Damage.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Damage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L505">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Damage_" data-uid="Divine.Entity.Entities.Abilities.Ability.Damage*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Damage" data-uid="Divine.Entity.Entities.Abilities.Ability.Damage">Damage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Damage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_DamageType.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.DamageType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L364">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_DamageType_" data-uid="Divine.Entity.Entities.Abilities.Ability.DamageType*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_DamageType" data-uid="Divine.Entity.Entities.Abilities.Ability.DamageType">DamageType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DamageType DamageType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.DamageType.html">DamageType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_DispellableType.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.DispellableType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L380">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_DispellableType_" data-uid="Divine.Entity.Entities.Abilities.Ability.DispellableType*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_DispellableType" data-uid="Divine.Entity.Entities.Abilities.Ability.DispellableType">DispellableType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DispellableType DispellableType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.DispellableType.html">DispellableType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Duration.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Duration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L529">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Duration_" data-uid="Divine.Entity.Entities.Abilities.Ability.Duration*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Duration" data-uid="Divine.Entity.Entities.Abilities.Ability.Duration">Duration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Duration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_EnemyLevel.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.EnemyLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L106">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_EnemyLevel_" data-uid="Divine.Entity.Entities.Abilities.Ability.EnemyLevel*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_EnemyLevel" data-uid="Divine.Entity.Entities.Abilities.Ability.EnemyLevel">EnemyLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EnemyLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_HasAltCastState.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.HasAltCastState%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L98">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_HasAltCastState_" data-uid="Divine.Entity.Entities.Abilities.Ability.HasAltCastState*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_HasAltCastState" data-uid="Divine.Entity.Entities.Abilities.Ability.HasAltCastState">HasAltCastState</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasAltCastState { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Id.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L316">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Id_" data-uid="Divine.Entity.Entities.Abilities.Ability.Id*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Id" data-uid="Divine.Entity.Entities.Abilities.Ability.Id">Id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AbilityId Id { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsActivated.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsActivated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L130">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsActivated_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsActivated*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsActivated" data-uid="Divine.Entity.Entities.Abilities.Ability.IsActivated">IsActivated</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActivated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsAutoCastEnabled.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsAutoCastEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L210">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsAutoCastEnabled_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsAutoCastEnabled*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsAutoCastEnabled" data-uid="Divine.Entity.Entities.Abilities.Ability.IsAutoCastEnabled">IsAutoCastEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAutoCastEnabled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsChanneling.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsChanneling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L473">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsChanneling_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsChanneling*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsChanneling" data-uid="Divine.Entity.Entities.Abilities.Ability.IsChanneling">IsChanneling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsChanneling { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsCooldownFrozen.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsCooldownFrozen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L162">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsCooldownFrozen_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsCooldownFrozen*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsCooldownFrozen" data-uid="Divine.Entity.Entities.Abilities.Ability.IsCooldownFrozen">IsCooldownFrozen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCooldownFrozen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsGrantedByScepter.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsGrantedByScepter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L388">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsGrantedByScepter_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsGrantedByScepter*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsGrantedByScepter" data-uid="Divine.Entity.Entities.Abilities.Ability.IsGrantedByScepter">IsGrantedByScepter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGrantedByScepter { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsHidden.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsHidden%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L122">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsHidden_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsHidden*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsHidden" data-uid="Divine.Entity.Entities.Abilities.Ability.IsHidden">IsHidden</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHidden { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsInAbilityPhase.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsInAbilityPhase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L170">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsInAbilityPhase_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsInAbilityPhase*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsInAbilityPhase" data-uid="Divine.Entity.Entities.Abilities.Ability.IsInAbilityPhase">IsInAbilityPhase</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInAbilityPhase { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsInIndefiniteCooldown.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsInIndefiniteCooldown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L226">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsInIndefiniteCooldown_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsInIndefiniteCooldown*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsInIndefiniteCooldown" data-uid="Divine.Entity.Entities.Abilities.Ability.IsInIndefiniteCooldown">IsInIndefiniteCooldown</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInIndefiniteCooldown { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsReplicated.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsReplicated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L114">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsReplicated_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsReplicated*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsReplicated" data-uid="Divine.Entity.Entities.Abilities.Ability.IsReplicated">IsReplicated</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReplicated { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsStolen.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsStolen%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L138">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsStolen_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsStolen*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsStolen" data-uid="Divine.Entity.Entities.Abilities.Ability.IsStolen">IsStolen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStolen { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_IsToggled.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.IsToggled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L154">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_IsToggled_" data-uid="Divine.Entity.Entities.Abilities.Ability.IsToggled*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_IsToggled" data-uid="Divine.Entity.Entities.Abilities.Ability.IsToggled">IsToggled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsToggled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_KeyValue.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.KeyValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L428">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_KeyValue_" data-uid="Divine.Entity.Entities.Abilities.Ability.KeyValue*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_KeyValue" data-uid="Divine.Entity.Entities.Abilities.Ability.KeyValue">KeyValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public KeyValue KeyValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Game.KeyValue.html">KeyValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_LastCastClickTime.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.LastCastClickTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L242">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_LastCastClickTime_" data-uid="Divine.Entity.Entities.Abilities.Ability.LastCastClickTime*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_LastCastClickTime" data-uid="Divine.Entity.Entities.Abilities.Ability.LastCastClickTime">LastCastClickTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LastCastClickTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Level.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Level%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L146">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Level_" data-uid="Divine.Entity.Entities.Abilities.Ability.Level*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Level" data-uid="Divine.Entity.Entities.Abilities.Ability.Level">Level</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Level { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_LevelsBeetweenUpgrades.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.LevelsBeetweenUpgrades%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L412">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_LevelsBeetweenUpgrades_" data-uid="Divine.Entity.Entities.Abilities.Ability.LevelsBeetweenUpgrades*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_LevelsBeetweenUpgrades" data-uid="Divine.Entity.Entities.Abilities.Ability.LevelsBeetweenUpgrades">LevelsBeetweenUpgrades</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LevelsBeetweenUpgrades { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_ManaCost.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.ManaCost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L202">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_ManaCost_" data-uid="Divine.Entity.Entities.Abilities.Ability.ManaCost*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_ManaCost" data-uid="Divine.Entity.Entities.Abilities.Ability.ManaCost">ManaCost</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ManaCost { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_MaximumLevel.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.MaximumLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L282">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_MaximumLevel_" data-uid="Divine.Entity.Entities.Abilities.Ability.MaximumLevel*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_MaximumLevel" data-uid="Divine.Entity.Entities.Abilities.Ability.MaximumLevel">MaximumLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaximumLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Name.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L89">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Name_" data-uid="Divine.Entity.Entities.Abilities.Ability.Name*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Name" data-uid="Divine.Entity.Entities.Abilities.Ability.Name">Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Divine.Entity.Entities.Entity.html#Divine_Entity_Entities_Entity_Name">Entity.Name</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_NetworkActivity.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.NetworkActivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L308">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_NetworkActivity_" data-uid="Divine.Entity.Entities.Abilities.Ability.NetworkActivity*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_NetworkActivity" data-uid="Divine.Entity.Entities.Abilities.Ability.NetworkActivity">NetworkActivity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkActivity NetworkActivity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Components.NetworkActivity.html">NetworkActivity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_NeutralTierIndex.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.NeutralTierIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L420">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_NeutralTierIndex_" data-uid="Divine.Entity.Entities.Abilities.Ability.NeutralTierIndex*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_NeutralTierIndex" data-uid="Divine.Entity.Entities.Abilities.Ability.NeutralTierIndex">NeutralTierIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int NeutralTierIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_OverrideCastPoint.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.OverrideCastPoint%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L234">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_OverrideCastPoint_" data-uid="Divine.Entity.Entities.Abilities.Ability.OverrideCastPoint*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_OverrideCastPoint" data-uid="Divine.Entity.Entities.Abilities.Ability.OverrideCastPoint">OverrideCastPoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float OverrideCastPoint { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_RequiredLevel.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.RequiredLevel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L396">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_RequiredLevel_" data-uid="Divine.Entity.Entities.Abilities.Ability.RequiredLevel*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_RequiredLevel" data-uid="Divine.Entity.Entities.Abilities.Ability.RequiredLevel">RequiredLevel</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RequiredLevel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_SharedCooldownName.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.SharedCooldownName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L299">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_SharedCooldownName_" data-uid="Divine.Entity.Entities.Abilities.Ability.SharedCooldownName*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_SharedCooldownName" data-uid="Divine.Entity.Entities.Abilities.Ability.SharedCooldownName">SharedCooldownName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SharedCooldownName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_SpellPierceImmunityType.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.SpellPierceImmunityType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L372">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_SpellPierceImmunityType_" data-uid="Divine.Entity.Entities.Abilities.Ability.SpellPierceImmunityType*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_SpellPierceImmunityType" data-uid="Divine.Entity.Entities.Abilities.Ability.SpellPierceImmunityType">SpellPierceImmunityType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SpellPierceImmunityType SpellPierceImmunityType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.SpellPierceImmunityType.html">SpellPierceImmunityType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_TargetFlags.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.TargetFlags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L348">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_TargetFlags_" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetFlags*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_TargetFlags" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetFlags">TargetFlags</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TargetFlags TargetFlags { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.TargetFlags.html">TargetFlags</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_TargetTeamType.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.TargetTeamType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L340">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_TargetTeamType_" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetTeamType*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_TargetTeamType" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetTeamType">TargetTeamType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TargetTeamType TargetTeamType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.TargetTeamType.html">TargetTeamType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_TargetType.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.TargetType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L356">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_TargetType_" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetType*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_TargetType" data-uid="Divine.Entity.Entities.Abilities.Ability.TargetType">TargetType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TargetType TargetType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.TargetType.html">TargetType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_TextureName.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.TextureName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L290">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_TextureName_" data-uid="Divine.Entity.Entities.Abilities.Ability.TextureName*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_TextureName" data-uid="Divine.Entity.Entities.Abilities.Ability.TextureName">TextureName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TextureName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Announce.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Announce%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L683">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Announce_" data-uid="Divine.Entity.Entities.Abilities.Ability.Announce*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Announce" data-uid="Divine.Entity.Entities.Abilities.Ability.Announce">Announce()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Announce()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L553">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast">Cast()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L628">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune)">Cast(Rune)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Rune target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Runes.Rune.html">Rune</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L633">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune,System.Boolean)">Cast(Rune, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Rune target, bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Runes.Rune.html">Rune</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L638">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Runes_Rune_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Runes.Rune,System.Boolean,System.Boolean)">Cast(Rune, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Rune target, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Runes.Rune.html">Rune</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L643">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree)">Cast(Tree)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Tree target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Trees.Tree.html">Tree</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L648">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree,System.Boolean)">Cast(Tree, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Tree target, bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Trees.Tree.html">Tree</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L653">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Trees_Tree_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Trees.Tree,System.Boolean,System.Boolean)">Cast(Tree, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Tree target, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Trees.Tree.html">Tree</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L598">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit)">Cast(Unit)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit%2CDivine.Numerics.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L613">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3)">Cast(Unit, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></td>
+        <td><span class="parametername">startTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">endPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit%2CDivine.Numerics.Vector3%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L618">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean)">Cast(Unit, Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition, bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></td>
+        <td><span class="parametername">startTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">endPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit%2CDivine.Numerics.Vector3%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L623">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">Cast(Unit, Vector3, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit startTarget, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></td>
+        <td><span class="parametername">startTarget</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">endPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L603">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,System.Boolean)">Cast(Unit, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit target, bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L608">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Entity_Entities_Units_Unit_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Entity.Entities.Units.Unit,System.Boolean,System.Boolean)">Cast(Unit, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Unit target, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Units.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L568">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3)">Cast(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3%2CDivine.Numerics.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L583">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,Divine.Numerics.Vector3)">Cast(Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">endPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3%2CDivine.Numerics.Vector3%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L588">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Boolean)">Cast(Vector3, Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition, bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">endPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3%2CDivine.Numerics.Vector3%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L593">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,Divine.Numerics.Vector3,System.Boolean,System.Boolean)">Cast(Vector3, Vector3, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 startPosition, Vector3 endPosition, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">startPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">endPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L573">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,System.Boolean)">Cast(Vector3, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position, bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L578">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_Divine_Numerics_Vector3_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(Divine.Numerics.Vector3,System.Boolean,System.Boolean)">Cast(Vector3, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(Vector3 position, bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L558">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Boolean)">Cast(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Cast_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Cast(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L563">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Cast_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Cast_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.Cast(System.Boolean,System.Boolean)">Cast(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Cast(bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CastToggle.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CastToggle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L658">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CastToggle_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CastToggle" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle">CastToggle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CastToggle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CastToggle_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CastToggle(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L663">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CastToggle_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CastToggle_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle(System.Boolean)">CastToggle(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CastToggle(bool queued)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CastToggle_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CastToggle(System.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L668">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CastToggle_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CastToggle_System_Boolean_System_Boolean_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggle(System.Boolean,System.Boolean)">CastToggle(Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CastToggle(bool queued, bool bypassOrderAdding)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">queued</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bypassOrderAdding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_CastToggleAutocast.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.CastToggleAutocast%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L673">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_CastToggleAutocast_" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggleAutocast*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_CastToggleAutocast" data-uid="Divine.Entity.Entities.Abilities.Ability.CastToggleAutocast">CastToggleAutocast()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CastToggleAutocast()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetAbilityDataById_Divine_Entity_Entities_Abilities_Components_AbilityId_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetAbilityDataById(Divine.Entity.Entities.Abilities.Components.AbilityId)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L47">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataById_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataById*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataById(Divine.Entity.Entities.Abilities.Components.AbilityId)">GetAbilityDataById(AbilityId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AbilityData GetAbilityDataById(AbilityId abilityId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></td>
+        <td><span class="parametername">abilityId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityData.html">AbilityData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByIndex_System_UInt16_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByIndex(System.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L41">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByIndex_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByIndex*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByIndex_System_UInt16_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByIndex(System.UInt16)">GetAbilityDataByIndex(UInt16)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AbilityData GetAbilityDataByIndex(ushort abilityIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">abilityIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityData.html">AbilityData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByName_System_String_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L53">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByName_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByName*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityDataByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityDataByName(System.String)">GetAbilityDataByName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AbilityData GetAbilityDataByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityData.html">AbilityData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetAbilityIdByName_System_String_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetAbilityIdByName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L75">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIdByName_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIdByName*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIdByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIdByName(System.String)">GetAbilityIdByName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AbilityId GetAbilityIdByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexById_Divine_Entity_Entities_Abilities_Components_AbilityId_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexById(Divine.Entity.Entities.Abilities.Components.AbilityId)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L62">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexById_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexById*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexById(Divine.Entity.Entities.Abilities.Components.AbilityId)">GetAbilityIndexById(AbilityId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort GetAbilityIndexById(AbilityId abilityId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></td>
+        <td><span class="parametername">abilityId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexByName_System_String_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexByName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L67">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexByName_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexByName*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityIndexByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityIndexByName(System.String)">GetAbilityIndexByName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort GetAbilityIndexByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetAbilityNameById_Divine_Entity_Entities_Abilities_Components_AbilityId_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetAbilityNameById(Divine.Entity.Entities.Abilities.Components.AbilityId)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L83">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetAbilityNameById_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityNameById*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetAbilityNameById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetAbilityNameById(Divine.Entity.Entities.Abilities.Components.AbilityId)">GetAbilityNameById(AbilityId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetAbilityNameById(AbilityId abilityId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></td>
+        <td><span class="parametername">abilityId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetKeyValueById_Divine_Entity_Entities_Abilities_Components_AbilityId_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetKeyValueById(Divine.Entity.Entities.Abilities.Components.AbilityId)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L26">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetKeyValueById_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetKeyValueById*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetKeyValueById_Divine_Entity_Entities_Abilities_Components_AbilityId_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetKeyValueById(Divine.Entity.Entities.Abilities.Components.AbilityId)">GetKeyValueById(AbilityId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KeyValue GetKeyValueById(AbilityId abilityId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a></td>
+        <td><span class="parametername">abilityId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Game.KeyValue.html">KeyValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_GetKeyValueByName_System_String_.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.GetKeyValueByName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L32">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_GetKeyValueByName_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetKeyValueByName*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_GetKeyValueByName_System_String_" data-uid="Divine.Entity.Entities.Abilities.Ability.GetKeyValueByName(System.String)">GetKeyValueByName(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static KeyValue GetKeyValueByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Game.KeyValue.html">KeyValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability_Upgrade.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability.Upgrade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L678">View Source</a>
+  </span>
+  <a id="Divine_Entity_Entities_Abilities_Ability_Upgrade_" data-uid="Divine.Entity.Entities.Abilities.Ability.Upgrade*"></a>
+  <h4 id="Divine_Entity_Entities_Abilities_Ability_Upgrade" data-uid="Divine.Entity.Entities.Abilities.Ability.Upgrade">Upgrade()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Upgrade()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySpecialData_Divine_Entity_Entities_Abilities_Ability_System_String_System_UInt32_">AbilityExtensions.GetAbilitySpecialData(Ability, String, UInt32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySpecialDataWithTalent_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_String_System_UInt32_">AbilityExtensions.GetAbilitySpecialDataWithTalent(Ability, Unit, String, UInt32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetAbilitySpecialDataWithTalent_Divine_Entity_Entities_Abilities_Ability_Divine_Entity_Entities_Units_Unit_System_String_Divine_Entity_Entities_Abilities_Components_AbilityId_System_UInt32_">AbilityExtensions.GetAbilitySpecialDataWithTalent(Ability, Unit, String, AbilityId, UInt32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetCastPoint_Divine_Entity_Entities_Abilities_Ability_">AbilityExtensions.GetCastPoint(Ability)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.AbilityExtensions.html#Divine_Extensions_AbilityExtensions_GetCastRange_Divine_Entity_Entities_Abilities_Ability_">AbilityExtensions.GetCastRange(Ability)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.Distance2D(Entity, Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_Distance2D_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_">EntityExtensions.Distance2D(Entity, Vector3)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_System_Single_">EntityExtensions.IsInRange(Entity, Entity, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Numerics_Vector2_System_Single_">EntityExtensions.IsInRange(Entity, Vector2, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsInRange_Divine_Entity_Entities_Entity_Divine_Numerics_Vector3_System_Single_">EntityExtensions.IsInRange(Entity, Vector3, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EntityExtensions.html#Divine_Extensions_EntityExtensions_IsAlly_Divine_Entity_Entities_Entity_Divine_Entity_Entities_Entity_">EntityExtensions.IsAlly(Entity, Entity)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, T[])</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Entity_Entities_Abilities_Ability.md&amp;value=---%0Auid%3A%20Divine.Entity.Entities.Abilities.Ability%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/blob/dev/Entity/Entities/Abilities/Ability.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

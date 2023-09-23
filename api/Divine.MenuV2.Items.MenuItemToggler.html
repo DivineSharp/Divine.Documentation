@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MenuItemToggler
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MenuItemToggler
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Divine.MenuV2.Items.MenuItemToggler">
+  
+  
+  <h1 id="Divine_MenuV2_Items_MenuItemToggler" data-uid="Divine.MenuV2.Items.MenuItemToggler" class="text-break">Class MenuItemToggler
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Divine.MenuV2.Items.MenuItem.html">MenuItem</a></div>
+    <div class="level2"><a class="xref" href="Divine.MenuV2.Items.MenuText.html">MenuText</a></div>
+    <div class="level3"><a class="xref" href="Divine.MenuV2.Items.MenuExpander.html">MenuExpander</a></div>
+    <div class="level4"><a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html">MenuToggler</a>&lt;<a class="xref" href="Divine.Entity.Entities.Abilities.Components.AbilityId.html">AbilityId</a>&gt;</div>
+    <div class="level5"><span class="xref">MenuItemToggler</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><a class="xref" href="Divine.MenuV2.Items.IMenuExpanderExtensions.html">IMenuExpanderExtensions</a></div>
+    <div><a class="xref" href="Divine.MenuV2.Items.IMenuTogglerExtensions.html">IMenuTogglerExtensions</a></div>
+    <div><a class="xref" href="Divine.MenuV2.Items.IMenuTextExtensions.html">IMenuTextExtensions</a></div>
+    <div><a class="xref" href="Divine.MenuV2.Items.IMenuItemExtensions.html">IMenuItemExtensions</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_Item__0_">MenuToggler&lt;AbilityId&gt;.Item[AbilityId]</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_View">MenuToggler&lt;AbilityId&gt;.View</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_Options">MenuToggler&lt;AbilityId&gt;.Options</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_CanChangePriority">MenuToggler&lt;AbilityId&gt;.CanChangePriority</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_IsExpandable">MenuToggler&lt;AbilityId&gt;.IsExpandable</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_DefaultValues">MenuToggler&lt;AbilityId&gt;.DefaultValues</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_ImageKeys">MenuToggler&lt;AbilityId&gt;.ImageKeys</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_Values">MenuToggler&lt;AbilityId&gt;.Values</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_ValueChanged">MenuToggler&lt;AbilityId&gt;.ValueChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_ValueAdded">MenuToggler&lt;AbilityId&gt;.ValueAdded</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_ValueRemoved">MenuToggler&lt;AbilityId&gt;.ValueRemoved</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_PriorityChanged">MenuToggler&lt;AbilityId&gt;.PriorityChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_GetValue__0_">MenuToggler&lt;AbilityId&gt;.GetValue(AbilityId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_TryGetValue__0_System_Boolean__">MenuToggler&lt;AbilityId&gt;.TryGetValue(AbilityId, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_SetValue__0_System_Boolean_">MenuToggler&lt;AbilityId&gt;.SetValue(AbilityId, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_AddValue_Divine_MenuV2_Components_MenuTogglerValue__0__">MenuToggler&lt;AbilityId&gt;.AddValue(MenuTogglerValue&lt;AbilityId&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_RemoveValue__0_">MenuToggler&lt;AbilityId&gt;.RemoveValue(AbilityId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_GetPriority__0_">MenuToggler&lt;AbilityId&gt;.GetPriority(AbilityId)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_SetPriority__0_System_Int32_">MenuToggler&lt;AbilityId&gt;.SetPriority(AbilityId, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_Divine_MenuV2_Items_IMenuTogglerExtensions_ResetValues">MenuToggler&lt;AbilityId&gt;.IMenuTogglerExtensions.ResetValues()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuToggler-1.html#Divine_MenuV2_Items_MenuToggler_1_Divine_MenuV2_Items_IMenuTogglerExtensions_ResetPriorities">MenuToggler&lt;AbilityId&gt;.IMenuTogglerExtensions.ResetPriorities()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuExpander.html#Divine_MenuV2_Items_MenuExpander_IsExpanded">MenuExpander.IsExpanded</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuExpander.html#Divine_MenuV2_Items_MenuExpander_Expanded">MenuExpander.Expanded</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuExpander.html#Divine_MenuV2_Items_MenuExpander_Collapsed">MenuExpander.Collapsed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuExpander.html#Divine_MenuV2_Items_MenuExpander_Divine_MenuV2_Items_IMenuExpanderExtensions_Expand">MenuExpander.IMenuExpanderExtensions.Expand()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuExpander.html#Divine_MenuV2_Items_MenuExpander_Divine_MenuV2_Items_IMenuExpanderExtensions_Collapse">MenuExpander.IMenuExpanderExtensions.Collapse()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuText.html#Divine_MenuV2_Items_MenuText_DisplayText">MenuText.DisplayText</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuText.html#Divine_MenuV2_Items_MenuText_DisplayTextFontColor">MenuText.DisplayTextFontColor</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuText.html#Divine_MenuV2_Items_MenuText_SetDisplayTextFontColor_System_Nullable_Divine_Numerics_Color__">MenuText.SetDisplayTextFontColor(Nullable&lt;Color&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuText.html#Divine_MenuV2_Items_MenuText_Divine_MenuV2_Items_IMenuTextExtensions_SetDisplayTextFontColor_System_Nullable_Divine_Numerics_Color__">MenuText.IMenuTextExtensions.SetDisplayTextFontColor(Nullable&lt;Color&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Item_System_String_">MenuItem.Item[String]</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Context">MenuItem.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Root">MenuItem.Root</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Parent">MenuItem.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_ContextStyle">MenuItem.ContextStyle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Views">MenuItem.Views</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Name">MenuItem.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_FullName">MenuItem.FullName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsContext">MenuItem.IsContext</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsRoot">MenuItem.IsRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsDisposed">MenuItem.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_CanVisible">MenuItem.CanVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsVisible">MenuItem.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsDisabled">MenuItem.IsDisabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Visibility">MenuItem.Visibility</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Priority">MenuItem.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_CanLoad">MenuItem.CanLoad</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_CanSave">MenuItem.CanSave</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsSelected">MenuItem.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_ImageKey">MenuItem.ImageKey</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Tooltip">MenuItem.Tooltip</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsRequiresSave">MenuItem.IsRequiresSave</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_OnRefresh">MenuItem.OnRefresh()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Refresh_System_Boolean_System_Boolean_">MenuItem.IMenuItemExtensions.Refresh(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Move_System_Int32_">MenuItem.IMenuItemExtensions.Move(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Reset">MenuItem.IMenuItemExtensions.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Show">MenuItem.IMenuItemExtensions.Show()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Hide">MenuItem.IMenuItemExtensions.Hide()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Enable">MenuItem.IMenuItemExtensions.Enable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Disable">MenuItem.IMenuItemExtensions.Disable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_SetImage_System_Nullable_Divine_MenuV2_Components_MenuImageKey__">MenuItem.IMenuItemExtensions.SetImage(Nullable&lt;MenuImageKey&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_SetTooltip_System_String_">MenuItem.IMenuItemExtensions.SetTooltip(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Load">MenuItem.IMenuItemExtensions.Load()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Save_Divine_MenuV2_Components_MenuSaveMode_">MenuItem.IMenuItemExtensions.Save(MenuSaveMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_System_IDisposable_Dispose">MenuItem.IDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Dispose_System_Boolean_">MenuItem.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_ToString">MenuItem.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Divine.MenuV2.Items.html">Divine.MenuV2.Items</a></h6>
+  <h6><strong>Assembly</strong>: Divine.dll</h6>
+  <h5 id="Divine_MenuV2_Items_MenuItemToggler_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class MenuItemToggler : MenuToggler&lt;AbilityId&gt;, IDisposable, IMenuExpanderExtensions, IMenuTogglerExtensions, IMenuTextExtensions, IMenuItemExtensions</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.Items.IMenuExpanderExtensions.html">IMenuExpanderExtensions</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.Items.IMenuTogglerExtensions.html">IMenuTogglerExtensions</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.Items.IMenuTextExtensions.html">IMenuTextExtensions</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.Items.IMenuItemExtensions.html">IMenuItemExtensions</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Refresh__1___0_System_Boolean_System_Boolean_">MenuExtensions.Refresh&lt;T&gt;(T, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Move__1___0_System_Int32_">MenuExtensions.Move&lt;T&gt;(T, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Reset__1___0_">MenuExtensions.Reset&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Show__1___0_">MenuExtensions.Show&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Hide__1___0_">MenuExtensions.Hide&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Enable__1___0_">MenuExtensions.Enable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Disable__1___0_">MenuExtensions.Disable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_SetImage__1___0_System_Nullable_Divine_MenuV2_Components_MenuImageKey__">MenuExtensions.SetImage&lt;T&gt;(T, Nullable&lt;MenuImageKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_SetTooltip__1___0_System_String_">MenuExtensions.SetTooltip&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Load__1___0_">MenuExtensions.Load&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Save__1___0_Divine_MenuV2_Components_MenuSaveMode_">MenuExtensions.Save&lt;T&gt;(T, MenuSaveMode)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_SetDisplayTextFontColor__1___0_System_Nullable_Divine_Numerics_Color__">MenuExtensions.SetDisplayTextFontColor&lt;T&gt;(T, Nullable&lt;Color&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Expand__1___0_">MenuExtensions.Expand&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Collapse__1___0_">MenuExtensions.Collapse&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_ResetValues__1___0_">MenuExtensions.ResetValues&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_ResetPriorities__1___0_">MenuExtensions.ResetPriorities&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuItemToggler.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuItemToggler%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuItemToggler.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

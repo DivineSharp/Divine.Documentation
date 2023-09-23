@@ -1,0 +1,3849 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct RoundedRectangle
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct RoundedRectangle
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Divine.Numerics.RoundedRectangle">
+  
+  
+  <h1 id="Divine_Numerics_RoundedRectangle" data-uid="Divine.Numerics.RoundedRectangle" class="text-break">Struct RoundedRectangle
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IEquatable</span>&lt;<a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>&gt;</div>
+    <div><span class="xref">System.Numerics.IMultiplyOperators</span>&lt;<a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>, <a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a>, <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>&gt;</div>
+    <div><span class="xref">System.Numerics.IMultiplyOperators</span>&lt;<a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>, <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>, <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>&gt;</div>
+    <div><span class="xref">System.Numerics.IMultiplyOperators</span>&lt;<a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>, <span class="xref">System.Single</span>, <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>&gt;</div>
+    <div><span class="xref">System.Numerics.IMultiplyOperators</span>&lt;<a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>, <a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a>, <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>&gt;</div>
+    <div><span class="xref">System.Numerics.IMultiplyOperators</span>&lt;<a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>, <a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a>, <a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Divine.Numerics.html">Divine.Numerics</a></h6>
+  <h6><strong>Assembly</strong>: Divine.dll</h6>
+  <h5 id="Divine_Numerics_RoundedRectangle_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct RoundedRectangle : IEquatable&lt;RoundedRectangle&gt;, IMultiplyOperators&lt;RoundedRectangle, CornerRadius, RoundedRectangle&gt;, IMultiplyOperators&lt;RoundedRectangle, RoundedRectangle, RoundedRectangle&gt;, IMultiplyOperators&lt;RoundedRectangle, float, RoundedRectangle&gt;, IMultiplyOperators&lt;RoundedRectangle, SizeF, RoundedRectangle&gt;, IMultiplyOperators&lt;RoundedRectangle, Vector2, RoundedRectangle&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_RectangleF_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(Divine.Numerics.RectangleF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L19">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_RectangleF_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(Divine.Numerics.RectangleF)">RoundedRectangle(RectangleF)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(RectangleF rectangle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></td>
+        <td><span class="parametername">rectangle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_RectangleF_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(Divine.Numerics.RectangleF%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L74">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_RectangleF_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(Divine.Numerics.RectangleF,Divine.Numerics.CornerRadius)">RoundedRectangle(RectangleF, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(RectangleF rectangle, CornerRadius cornerRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></td>
+        <td><span class="parametername">rectangle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">cornerRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_RectangleF_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(Divine.Numerics.RectangleF%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L49">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_RectangleF_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(Divine.Numerics.RectangleF,System.Single,System.Single,System.Single,System.Single)">RoundedRectangle(RectangleF, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(RectangleF rectangle, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></td>
+        <td><span class="parametername">rectangle</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_Vector2_Divine_Numerics_SizeF_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(Divine.Numerics.Vector2%2CDivine.Numerics.SizeF%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L64">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_Vector2_Divine_Numerics_SizeF_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(Divine.Numerics.Vector2,Divine.Numerics.SizeF,Divine.Numerics.CornerRadius)">RoundedRectangle(Vector2, SizeF, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(Vector2 location, SizeF size, CornerRadius cornerRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">location</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">cornerRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_Vector2_Divine_Numerics_SizeF_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(Divine.Numerics.Vector2%2CDivine.Numerics.SizeF%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L44">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_Vector2_Divine_Numerics_SizeF_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(Divine.Numerics.Vector2,Divine.Numerics.SizeF,System.Single,System.Single,System.Single,System.Single)">RoundedRectangle(Vector2, SizeF, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(Vector2 location, SizeF size, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">location</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_Vector2_System_Single_System_Single_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(Divine.Numerics.Vector2%2CSystem.Single%2CSystem.Single%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L54">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_Divine_Numerics_Vector2_System_Single_System_Single_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(Divine.Numerics.Vector2,System.Single,System.Single,Divine.Numerics.CornerRadius)">RoundedRectangle(Vector2, Single, Single, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(Vector2 location, float width, float height, CornerRadius cornerRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">location</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">cornerRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_Divine_Numerics_SizeF_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(System.Single%2CSystem.Single%2CDivine.Numerics.SizeF%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L59">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_Divine_Numerics_SizeF_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(System.Single,System.Single,Divine.Numerics.SizeF,Divine.Numerics.CornerRadius)">RoundedRectangle(Single, Single, SizeF, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(float x, float y, SizeF size, CornerRadius cornerRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">cornerRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L24">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(System.Single,System.Single,System.Single,System.Single)">RoundedRectangle(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(float x, float y, float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L69">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(System.Single,System.Single,System.Single,System.Single,Divine.Numerics.CornerRadius)">RoundedRectangle(Single, Single, Single, Single, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(float x, float y, float width, float height, CornerRadius cornerRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">cornerRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L29">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single)">RoundedRectangle(Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(float x, float y, float width, float height, float uniformRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">uniformRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L34">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">RoundedRectangle(Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.%23ctor(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L39">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle__ctor_" data-uid="Divine.Numerics.RoundedRectangle.#ctor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle__ctor_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">RoundedRectangle(Single, Single, Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RoundedRectangle(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_CornerRadius.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.CornerRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L17">View Source</a>
+  </span>
+  <h4 id="Divine_Numerics_RoundedRectangle_CornerRadius" data-uid="Divine.Numerics.RoundedRectangle.CornerRadius">CornerRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CornerRadius CornerRadius</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Rectangle.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Rectangle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L15">View Source</a>
+  </span>
+  <h4 id="Divine_Numerics_RoundedRectangle_Rectangle" data-uid="Divine.Numerics.RoundedRectangle.Rectangle">Rectangle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectangleF Rectangle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Bottom.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Bottom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L171">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Bottom_" data-uid="Divine.Numerics.RoundedRectangle.Bottom*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Bottom" data-uid="Divine.Numerics.RoundedRectangle.Bottom">Bottom</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Bottom { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_BottomLeft.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.BottomLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L208">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_BottomLeft_" data-uid="Divine.Numerics.RoundedRectangle.BottomLeft*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_BottomLeft" data-uid="Divine.Numerics.RoundedRectangle.BottomLeft">BottomLeft</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 BottomLeft { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_BottomLeftRadius.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.BottomLeftRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L263">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_BottomLeftRadius_" data-uid="Divine.Numerics.RoundedRectangle.BottomLeftRadius*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_BottomLeftRadius" data-uid="Divine.Numerics.RoundedRectangle.BottomLeftRadius">BottomLeftRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BottomLeftRadius { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_BottomRight.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.BottomRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L216">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_BottomRight_" data-uid="Divine.Numerics.RoundedRectangle.BottomRight*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_BottomRight" data-uid="Divine.Numerics.RoundedRectangle.BottomRight">BottomRight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 BottomRight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_BottomRightRadius.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.BottomRightRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L250">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_BottomRightRadius_" data-uid="Divine.Numerics.RoundedRectangle.BottomRightRadius*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_BottomRightRadius" data-uid="Divine.Numerics.RoundedRectangle.BottomRightRadius">BottomRightRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float BottomRightRadius { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Center.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Center%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L184">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Center_" data-uid="Divine.Numerics.RoundedRectangle.Center*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Center" data-uid="Divine.Numerics.RoundedRectangle.Center">Center</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 Center { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Height.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L119">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Height_" data-uid="Divine.Numerics.RoundedRectangle.Height*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Height" data-uid="Divine.Numerics.RoundedRectangle.Height">Height</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Height { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Left.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Left%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L132">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Left_" data-uid="Divine.Numerics.RoundedRectangle.Left*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Left" data-uid="Divine.Numerics.RoundedRectangle.Left">Left</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Left { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Location.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Location%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L276">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Location_" data-uid="Divine.Numerics.RoundedRectangle.Location*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Location" data-uid="Divine.Numerics.RoundedRectangle.Location">Location</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 Location { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Right.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Right%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L158">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Right_" data-uid="Divine.Numerics.RoundedRectangle.Right*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Right" data-uid="Divine.Numerics.RoundedRectangle.Right">Right</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Right { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Size.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Size%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L289">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Size_" data-uid="Divine.Numerics.RoundedRectangle.Size*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Size" data-uid="Divine.Numerics.RoundedRectangle.Size">Size</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizeF Size { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Top.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Top%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L145">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Top_" data-uid="Divine.Numerics.RoundedRectangle.Top*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Top" data-uid="Divine.Numerics.RoundedRectangle.Top">Top</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Top { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_TopLeft.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.TopLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L192">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_TopLeft_" data-uid="Divine.Numerics.RoundedRectangle.TopLeft*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_TopLeft" data-uid="Divine.Numerics.RoundedRectangle.TopLeft">TopLeft</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 TopLeft { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_TopLeftRadius.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.TopLeftRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L224">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_TopLeftRadius_" data-uid="Divine.Numerics.RoundedRectangle.TopLeftRadius*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_TopLeftRadius" data-uid="Divine.Numerics.RoundedRectangle.TopLeftRadius">TopLeftRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TopLeftRadius { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_TopRight.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.TopRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L200">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_TopRight_" data-uid="Divine.Numerics.RoundedRectangle.TopRight*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_TopRight" data-uid="Divine.Numerics.RoundedRectangle.TopRight">TopRight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Vector2 TopRight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_TopRightRadius.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.TopRightRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L237">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_TopRightRadius_" data-uid="Divine.Numerics.RoundedRectangle.TopRightRadius*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_TopRightRadius" data-uid="Divine.Numerics.RoundedRectangle.TopRightRadius">TopRightRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float TopRightRadius { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Width.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L106">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Width_" data-uid="Divine.Numerics.RoundedRectangle.Width*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Width" data-uid="Divine.Numerics.RoundedRectangle.Width">Width</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Width { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_X.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.X%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L80">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_X_" data-uid="Divine.Numerics.RoundedRectangle.X*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_X" data-uid="Divine.Numerics.RoundedRectangle.X">X</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float X { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Y.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Y%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L93">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Y_" data-uid="Divine.Numerics.RoundedRectangle.Y*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Y" data-uid="Divine.Numerics.RoundedRectangle.Y">Y</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Y { readonly get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Add_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Add(Divine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L317">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Add_" data-uid="Divine.Numerics.RoundedRectangle.Add*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Add_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.Add(Divine.Numerics.RoundedRectangle)">Add(RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Add(RoundedRectangle value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Add_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Add(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L302">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Add_" data-uid="Divine.Numerics.RoundedRectangle.Add*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Add_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Add(System.Single)">Add(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Add(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Add_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Add(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L307">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Add_" data-uid="Divine.Numerics.RoundedRectangle.Add*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Add_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Add(System.Single,System.Single,System.Single,System.Single)">Add(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Add(float x, float y, float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Add_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Add(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L312">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Add_" data-uid="Divine.Numerics.RoundedRectangle.Add*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Add_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Add(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">Add(Single, Single, Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Add(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Ceiling.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Ceiling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L392">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Ceiling_" data-uid="Divine.Numerics.RoundedRectangle.Ceiling*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Ceiling" data-uid="Divine.Numerics.RoundedRectangle.Ceiling">Ceiling()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Ceiling()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Divide_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Divide(Divine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L377">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Divide_" data-uid="Divine.Numerics.RoundedRectangle.Divide*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Divide_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.Divide(Divine.Numerics.RoundedRectangle)">Divide(RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Divide(RoundedRectangle value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Divide_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Divide(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L362">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Divide_" data-uid="Divine.Numerics.RoundedRectangle.Divide*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Divide_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Divide(System.Single)">Divide(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Divide(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Divide_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Divide(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L367">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Divide_" data-uid="Divine.Numerics.RoundedRectangle.Divide*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Divide_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Divide(System.Single,System.Single,System.Single,System.Single)">Divide(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Divide(float x, float y, float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Divide_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Divide(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L372">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Divide_" data-uid="Divine.Numerics.RoundedRectangle.Divide*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Divide_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Divide(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">Divide(Single, Single, Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Divide(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Equals_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Equals(Divine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L407">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Equals_" data-uid="Divine.Numerics.RoundedRectangle.Equals*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Equals_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.Equals(Divine.Numerics.RoundedRectangle)">Equals(RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly bool Equals(RoundedRectangle other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L402">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Equals_" data-uid="Divine.Numerics.RoundedRectangle.Equals*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Equals_System_Object_" data-uid="Divine.Numerics.RoundedRectangle.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Floor.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Floor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L382">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Floor_" data-uid="Divine.Numerics.RoundedRectangle.Floor*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Floor" data-uid="Divine.Numerics.RoundedRectangle.Floor">Floor()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Floor()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_GetHashCode.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L412">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_GetHashCode_" data-uid="Divine.Numerics.RoundedRectangle.GetHashCode*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_GetHashCode" data-uid="Divine.Numerics.RoundedRectangle.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Lerp_Divine_Numerics_RoundedRectangle_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Lerp(Divine.Numerics.RoundedRectangle%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L397">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Lerp_" data-uid="Divine.Numerics.RoundedRectangle.Lerp*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Lerp_Divine_Numerics_RoundedRectangle_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Lerp(Divine.Numerics.RoundedRectangle,System.Single)">Lerp(RoundedRectangle, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Lerp(RoundedRectangle rect, float amount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">rect</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Multiply_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Multiply(Divine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L357">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Multiply_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.Multiply(Divine.Numerics.RoundedRectangle)">Multiply(RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Multiply(RoundedRectangle value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Multiply_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Multiply(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L342">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Multiply_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Multiply(System.Single)">Multiply(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Multiply(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Multiply_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Multiply(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L347">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Multiply_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Multiply(System.Single,System.Single,System.Single,System.Single)">Multiply(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Multiply(float x, float y, float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Multiply_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Multiply(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L352">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Multiply_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Multiply(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">Multiply(Single, Single, Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Multiply(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Round.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Round%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L387">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Round_" data-uid="Divine.Numerics.RoundedRectangle.Round*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Round" data-uid="Divine.Numerics.RoundedRectangle.Round">Round()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Round()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Subtract_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Subtract(Divine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L337">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Subtract_" data-uid="Divine.Numerics.RoundedRectangle.Subtract*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Subtract_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.Subtract(Divine.Numerics.RoundedRectangle)">Subtract(RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Subtract(RoundedRectangle value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Subtract_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Subtract(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L322">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Subtract_" data-uid="Divine.Numerics.RoundedRectangle.Subtract*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Subtract_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Subtract(System.Single)">Subtract(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Subtract(float value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Subtract_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Subtract(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L327">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Subtract_" data-uid="Divine.Numerics.RoundedRectangle.Subtract*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Subtract_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Subtract(System.Single,System.Single,System.Single,System.Single)">Subtract(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Subtract(float x, float y, float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_Subtract_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.Subtract(System.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L332">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_Subtract_" data-uid="Divine.Numerics.RoundedRectangle.Subtract*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_Subtract_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.Subtract(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">Subtract(Single, Single, Single, Single, Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly RoundedRectangle Subtract(float x, float y, float width, float height, float topLeftRadius, float topRightRadius, float bottomRightRadius, float bottomLeftRadius)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topLeftRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">topRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomRightRadius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bottomLeftRadius</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_ToString.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L420">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_ToString_" data-uid="Divine.Numerics.RoundedRectangle.ToString*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_ToString" data-uid="Divine.Numerics.RoundedRectangle.ToString">ToString()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override readonly string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.ValueType.ToString()</span></div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L440">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Addition_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle,Divine.Numerics.CornerRadius)">Addition(RoundedRectangle, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator +(RoundedRectangle left, CornerRadius right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_Margin_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.Margin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L425">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Addition_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_Margin_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle,Divine.Numerics.Margin)">Addition(RoundedRectangle, Margin)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator +(RoundedRectangle left, Margin right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Margin.html">Margin</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L445">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Addition_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle,Divine.Numerics.RoundedRectangle)">Addition(RoundedRectangle, RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator +(RoundedRectangle left, RoundedRectangle right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.SizeF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L435">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Addition_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle,Divine.Numerics.SizeF)">Addition(RoundedRectangle, SizeF)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator +(RoundedRectangle left, SizeF right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L430">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Addition_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Addition_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRectangle.op_Addition(Divine.Numerics.RoundedRectangle,Divine.Numerics.Vector2)">Addition(RoundedRectangle, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator +(RoundedRectangle left, Vector2 right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L510">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Division_" data-uid="Divine.Numerics.RoundedRectangle.op_Division*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle,Divine.Numerics.CornerRadius)">Division(RoundedRectangle, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator /(RoundedRectangle left, CornerRadius right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L515">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Division_" data-uid="Divine.Numerics.RoundedRectangle.op_Division*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle,Divine.Numerics.RoundedRectangle)">Division(RoundedRectangle, RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator /(RoundedRectangle left, RoundedRectangle right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.SizeF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L505">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Division_" data-uid="Divine.Numerics.RoundedRectangle.op_Division*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_" data-uid="Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle,Divine.Numerics.SizeF)">Division(RoundedRectangle, SizeF)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator /(RoundedRectangle left, SizeF right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L500">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Division_" data-uid="Divine.Numerics.RoundedRectangle.op_Division*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle,Divine.Numerics.Vector2)">Division(RoundedRectangle, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator /(RoundedRectangle left, Vector2 right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L495">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Division_" data-uid="Divine.Numerics.RoundedRectangle.op_Division*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Division_Divine_Numerics_RoundedRectangle_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.op_Division(Divine.Numerics.RoundedRectangle,System.Single)">Division(RoundedRectangle, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator /(RoundedRectangle left, float right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Equality_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Equality(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L520">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Equality_" data-uid="Divine.Numerics.RoundedRectangle.op_Equality*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Equality_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.op_Equality(Divine.Numerics.RoundedRectangle,Divine.Numerics.RoundedRectangle)">Equality(RoundedRectangle, RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(RoundedRectangle left, RoundedRectangle right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Implicit_Divine_Numerics_RoundedRectangle__Divine_Numerics_CornerRadius.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Implicit(Divine.Numerics.RoundedRectangle)~Divine.Numerics.CornerRadius%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L535">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Implicit_" data-uid="Divine.Numerics.RoundedRectangle.op_Implicit*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Implicit_Divine_Numerics_RoundedRectangle__Divine_Numerics_CornerRadius" data-uid="Divine.Numerics.RoundedRectangle.op_Implicit(Divine.Numerics.RoundedRectangle)~Divine.Numerics.CornerRadius">Implicit(RoundedRectangle to CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator CornerRadius(RoundedRectangle value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Implicit_Divine_Numerics_RoundedRectangle__Divine_Numerics_RectangleF.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Implicit(Divine.Numerics.RoundedRectangle)~Divine.Numerics.RectangleF%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L530">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Implicit_" data-uid="Divine.Numerics.RoundedRectangle.op_Implicit*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Implicit_Divine_Numerics_RoundedRectangle__Divine_Numerics_RectangleF" data-uid="Divine.Numerics.RoundedRectangle.op_Implicit(Divine.Numerics.RoundedRectangle)~Divine.Numerics.RectangleF">Implicit(RoundedRectangle to RectangleF)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator RectangleF(RoundedRectangle value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RectangleF.html">RectangleF</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Inequality_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Inequality(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L525">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Inequality_" data-uid="Divine.Numerics.RoundedRectangle.op_Inequality*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Inequality_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.op_Inequality(Divine.Numerics.RoundedRectangle,Divine.Numerics.RoundedRectangle)">Inequality(RoundedRectangle, RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(RoundedRectangle left, RoundedRectangle right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L485">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle,Divine.Numerics.CornerRadius)">Multiply(RoundedRectangle, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator *(RoundedRectangle left, CornerRadius right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L490">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle,Divine.Numerics.RoundedRectangle)">Multiply(RoundedRectangle, RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator *(RoundedRectangle left, RoundedRectangle right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.SizeF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L480">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle,Divine.Numerics.SizeF)">Multiply(RoundedRectangle, SizeF)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator *(RoundedRectangle left, SizeF right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L475">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle,Divine.Numerics.Vector2)">Multiply(RoundedRectangle, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator *(RoundedRectangle left, Vector2 right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_System_Single_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L470">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Multiply_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Multiply_Divine_Numerics_RoundedRectangle_System_Single_" data-uid="Divine.Numerics.RoundedRectangle.op_Multiply(Divine.Numerics.RoundedRectangle,System.Single)">Multiply(RoundedRectangle, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator *(RoundedRectangle left, float right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.CornerRadius)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L460">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Subtraction_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_CornerRadius_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle,Divine.Numerics.CornerRadius)">Subtraction(RoundedRectangle, CornerRadius)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator -(RoundedRectangle left, CornerRadius right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.CornerRadius.html">CornerRadius</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.RoundedRectangle)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L465">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Subtraction_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_RoundedRectangle_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle,Divine.Numerics.RoundedRectangle)">Subtraction(RoundedRectangle, RoundedRectangle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator -(RoundedRectangle left, RoundedRectangle right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.SizeF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L455">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Subtraction_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_SizeF_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle,Divine.Numerics.SizeF)">Subtraction(RoundedRectangle, SizeF)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator -(RoundedRectangle left, SizeF right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.SizeF.html">SizeF</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle%2CDivine.Numerics.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L450">View Source</a>
+  </span>
+  <a id="Divine_Numerics_RoundedRectangle_op_Subtraction_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction*"></a>
+  <h4 id="Divine_Numerics_RoundedRectangle_op_Subtraction_Divine_Numerics_RoundedRectangle_Divine_Numerics_Vector2_" data-uid="Divine.Numerics.RoundedRectangle.op_Subtraction(Divine.Numerics.RoundedRectangle,Divine.Numerics.Vector2)">Subtraction(RoundedRectangle, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RoundedRectangle operator -(RoundedRectangle left, Vector2 right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.Vector2.html">Vector2</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.Numerics.RoundedRectangle.html">RoundedRectangle</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IEquatable&lt;T&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Numerics.IMultiplyOperators&lt;TSelf, TOther, TResult&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Numerics.IMultiplyOperators&lt;TSelf, TOther, TResult&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Numerics.IMultiplyOperators&lt;TSelf, TOther, TResult&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Numerics.IMultiplyOperators&lt;TSelf, TOther, TResult&gt;</span>
+  </div>
+  <div>
+      <span class="xref">System.Numerics.IMultiplyOperators&lt;TSelf, TOther, TResult&gt;</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_ClearFlags__1___0___0_">EnumerableExtensions.ClearFlags&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_GetFlagDescription__1___0_">EnumerableExtensions.GetFlagDescription&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_GetFlags__1___0_">EnumerableExtensions.GetFlags&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_SetFlags__1___0___0_System_Boolean_">EnumerableExtensions.SetFlags&lt;T&gt;(T, T, Boolean)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_Numerics_RoundedRectangle.md&amp;value=---%0Auid%3A%20Divine.Numerics.RoundedRectangle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/blob/dev/Numerics/RoundedRectangle.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

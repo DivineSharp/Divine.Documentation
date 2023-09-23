@@ -1,0 +1,551 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MenuLinker
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MenuLinker
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Divine.MenuV2.Items.MenuLinker">
+  
+  
+  <h1 id="Divine_MenuV2_Items_MenuLinker" data-uid="Divine.MenuV2.Items.MenuLinker" class="text-break">Class MenuLinker
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Divine.MenuV2.Items.MenuItem.html">MenuItem</a></div>
+    <div class="level2"><span class="xref">MenuLinker</span></div>
+      <div class="level3"><a class="xref" href="Divine.MenuV2.Items.MenuSimpleLinker.html">MenuSimpleLinker</a></div>
+      <div class="level3"><a class="xref" href="Divine.MenuV2.Items.MenuTextLinker.html">MenuTextLinker</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Divine.MenuV2.Items.IMenuItemExtensions.html">IMenuItemExtensions</a></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Item_System_String_">MenuItem.Item[String]</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Context">MenuItem.Context</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Root">MenuItem.Root</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Parent">MenuItem.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_ContextStyle">MenuItem.ContextStyle</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_View">MenuItem.View</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Views">MenuItem.Views</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Name">MenuItem.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_FullName">MenuItem.FullName</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsContext">MenuItem.IsContext</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsRoot">MenuItem.IsRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsDisposed">MenuItem.IsDisposed</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_CanVisible">MenuItem.CanVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsVisible">MenuItem.IsVisible</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsDisabled">MenuItem.IsDisabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Visibility">MenuItem.Visibility</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Priority">MenuItem.Priority</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsSelected">MenuItem.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_ImageKey">MenuItem.ImageKey</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Tooltip">MenuItem.Tooltip</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_IsRequiresSave">MenuItem.IsRequiresSave</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_OnRefresh">MenuItem.OnRefresh()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Refresh_System_Boolean_System_Boolean_">MenuItem.IMenuItemExtensions.Refresh(Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Move_System_Int32_">MenuItem.IMenuItemExtensions.Move(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Reset">MenuItem.IMenuItemExtensions.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Show">MenuItem.IMenuItemExtensions.Show()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Hide">MenuItem.IMenuItemExtensions.Hide()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Enable">MenuItem.IMenuItemExtensions.Enable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Disable">MenuItem.IMenuItemExtensions.Disable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_SetImage_System_Nullable_Divine_MenuV2_Components_MenuImageKey__">MenuItem.IMenuItemExtensions.SetImage(Nullable&lt;MenuImageKey&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_SetTooltip_System_String_">MenuItem.IMenuItemExtensions.SetTooltip(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Load">MenuItem.IMenuItemExtensions.Load()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Divine_MenuV2_Items_IMenuItemExtensions_Save_Divine_MenuV2_Components_MenuSaveMode_">MenuItem.IMenuItemExtensions.Save(MenuSaveMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_System_IDisposable_Dispose">MenuItem.IDisposable.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_Dispose_System_Boolean_">MenuItem.Dispose(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_ToString">MenuItem.ToString()</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Divine.MenuV2.Items.html">Divine.MenuV2.Items</a></h6>
+  <h6><strong>Assembly</strong>: Divine.dll</h6>
+  <h5 id="Divine_MenuV2_Items_MenuLinker_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class MenuLinker : MenuItem, IMenuItemExtensions, IDisposable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuLinker_CanLoad.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuLinker.CanLoad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuLinker.cs/#L21">View Source</a>
+  </span>
+  <a id="Divine_MenuV2_Items_MenuLinker_CanLoad_" data-uid="Divine.MenuV2.Items.MenuLinker.CanLoad*"></a>
+  <h4 id="Divine_MenuV2_Items_MenuLinker_CanLoad" data-uid="Divine.MenuV2.Items.MenuLinker.CanLoad">CanLoad</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanLoad { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_CanLoad">MenuItem.CanLoad</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuLinker_CanSave.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuLinker.CanSave%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuLinker.cs/#L29">View Source</a>
+  </span>
+  <a id="Divine_MenuV2_Items_MenuLinker_CanSave_" data-uid="Divine.MenuV2.Items.MenuLinker.CanSave*"></a>
+  <h4 id="Divine_MenuV2_Items_MenuLinker_CanSave" data-uid="Divine.MenuV2.Items.MenuLinker.CanSave">CanSave</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanSave { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Divine.MenuV2.Items.MenuItem.html#Divine_MenuV2_Items_MenuItem_CanSave">MenuItem.CanSave</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuLinker_Item.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuLinker.Item%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuLinker.cs/#L37">View Source</a>
+  </span>
+  <a id="Divine_MenuV2_Items_MenuLinker_Item_" data-uid="Divine.MenuV2.Items.MenuLinker.Item*"></a>
+  <h4 id="Divine_MenuV2_Items_MenuLinker_Item" data-uid="Divine.MenuV2.Items.MenuLinker.Item">Item</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MenuItem Item { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.MenuV2.Items.MenuItem.html">MenuItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuLinker_op_Implicit_Divine_MenuV2_Items_MenuLinker__Divine_MenuV2_Items_Menu.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuLinker.op_Implicit(Divine.MenuV2.Items.MenuLinker)~Divine.MenuV2.Items.Menu%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuLinker.cs/#L114">View Source</a>
+  </span>
+  <a id="Divine_MenuV2_Items_MenuLinker_op_Implicit_" data-uid="Divine.MenuV2.Items.MenuLinker.op_Implicit*"></a>
+  <h4 id="Divine_MenuV2_Items_MenuLinker_op_Implicit_Divine_MenuV2_Items_MenuLinker__Divine_MenuV2_Items_Menu" data-uid="Divine.MenuV2.Items.MenuLinker.op_Implicit(Divine.MenuV2.Items.MenuLinker)~Divine.MenuV2.Items.Menu">Implicit(MenuLinker to Menu)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Menu(MenuLinker linker)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.MenuV2.Items.MenuLinker.html">MenuLinker</a></td>
+        <td><span class="parametername">linker</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.MenuV2.Items.Menu.html">Menu</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuLinker_op_Implicit_Divine_MenuV2_Items_MenuLinker__Divine_MenuV2_Items_MenuSwitcher.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuLinker.op_Implicit(Divine.MenuV2.Items.MenuLinker)~Divine.MenuV2.Items.MenuSwitcher%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuLinker.cs/#L119">View Source</a>
+  </span>
+  <a id="Divine_MenuV2_Items_MenuLinker_op_Implicit_" data-uid="Divine.MenuV2.Items.MenuLinker.op_Implicit*"></a>
+  <h4 id="Divine_MenuV2_Items_MenuLinker_op_Implicit_Divine_MenuV2_Items_MenuLinker__Divine_MenuV2_Items_MenuSwitcher" data-uid="Divine.MenuV2.Items.MenuLinker.op_Implicit(Divine.MenuV2.Items.MenuLinker)~Divine.MenuV2.Items.MenuSwitcher">Implicit(MenuLinker to MenuSwitcher)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MenuSwitcher(MenuLinker linker)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.MenuV2.Items.MenuLinker.html">MenuLinker</a></td>
+        <td><span class="parametername">linker</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.MenuV2.Items.MenuSwitcher.html">MenuSwitcher</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuLinker_op_Implicit_Divine_MenuV2_Objects_MenuObject__Divine_MenuV2_Items_MenuLinker.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuLinker.op_Implicit(Divine.MenuV2.Objects.MenuObject)~Divine.MenuV2.Items.MenuLinker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuLinker.cs/#L108">View Source</a>
+  </span>
+  <a id="Divine_MenuV2_Items_MenuLinker_op_Implicit_" data-uid="Divine.MenuV2.Items.MenuLinker.op_Implicit*"></a>
+  <h4 id="Divine_MenuV2_Items_MenuLinker_op_Implicit_Divine_MenuV2_Objects_MenuObject__Divine_MenuV2_Items_MenuLinker" data-uid="Divine.MenuV2.Items.MenuLinker.op_Implicit(Divine.MenuV2.Objects.MenuObject)~Divine.MenuV2.Items.MenuLinker">Implicit(MenuObject to MenuLinker)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator MenuLinker(MenuObject menuObject)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.MenuV2.Objects.MenuObject.html">MenuObject</a></td>
+        <td><span class="parametername">menuObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Divine.MenuV2.Items.MenuLinker.html">MenuLinker</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Divine.MenuV2.Items.IMenuItemExtensions.html">IMenuItemExtensions</a>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Divine.Extensions.EnumerableExtensions.html#Divine_Extensions_EnumerableExtensions_In__1___0___0___">EnumerableExtensions.In&lt;T&gt;(T, T[])</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Refresh__1___0_System_Boolean_System_Boolean_">MenuExtensions.Refresh&lt;T&gt;(T, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Move__1___0_System_Int32_">MenuExtensions.Move&lt;T&gt;(T, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Reset__1___0_">MenuExtensions.Reset&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Show__1___0_">MenuExtensions.Show&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Hide__1___0_">MenuExtensions.Hide&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Enable__1___0_">MenuExtensions.Enable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Disable__1___0_">MenuExtensions.Disable&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_SetImage__1___0_System_Nullable_Divine_MenuV2_Components_MenuImageKey__">MenuExtensions.SetImage&lt;T&gt;(T, Nullable&lt;MenuImageKey&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_SetTooltip__1___0_System_String_">MenuExtensions.SetTooltip&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Load__1___0_">MenuExtensions.Load&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Divine.MenuV2.MenuExtensions.html#Divine_MenuV2_MenuExtensions_Save__1___0_Divine_MenuV2_Components_MenuSaveMode_">MenuExtensions.Save&lt;T&gt;(T, MenuSaveMode)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/new/dev/apiSpec/new?filename=Divine_MenuV2_Items_MenuLinker.md&amp;value=---%0Auid%3A%20Divine.MenuV2.Items.MenuLinker%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/DivineSharp/Divine/blob/dev/MenuV2/Items/MenuLinker.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
